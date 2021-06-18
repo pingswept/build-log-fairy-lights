@@ -6,4 +6,6 @@ The main purpose of this is to make the batteries last longer. Using just an LED
 
 There's a secondary goal of making the battery easier to replace by adding a battery clip and a PCB, so I don't have to untape and retape the LED for every new battery.
 
+![Schematic](fairy-lights-schematic.jpg?raw=true "Schematic")
+
 ![Materials on hand so far](materials-on-hand.jpg?raw=true "Materials on hand so far")
