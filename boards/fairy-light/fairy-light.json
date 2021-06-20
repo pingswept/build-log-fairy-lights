@@ -1,17 +1,119 @@
 {
-  "pins":
-  {
-  },
-  "layout":
-  {
-    "silkscreen":
-    {
-    },
-    "assembly":
-    {
+  "components": {
+  }, 
+  "config": {
+    "name": "fairy-light", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "2021-06-20", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.25, 
+      "pad": 0.3, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
     }
-  },
-  "pads":
-  {
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        42.393241, 
+        14.751745
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Name: fairy-light \nRevision: 1.0\nDescription: Glowing ribbon holder with light sensor \nLicense: Creative Commons BY-SA\nDesigner: Brandon Stafford, brandon@pingswept.org"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        41.519101, 
+        1.5568505
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimeter\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top (white), bottom (white)\nSoldermask: top (red), bottom (red)\nSurface finish: ENIG (lead free)"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        36.969071, 
+        -8.3393629
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, open source software\n     https://github.com/boldport/pcbmode"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      25.538165, 
+      -12.144727
+    ]
+  }, 
+  "files": {
+    "routing-data": "mlayer-test_routing.json", 
+    "routing-svg": "mlayer.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "outline": {
+    "measurements": {
+      "font-family": "UbuntuMono-R-webfont", 
+      "scale": 0.0008
+    }, 
+    "shape": {
+      "type": "path", 
+      "value": "m -10.511076,43.591972 c -7.772769,-0.209906 -8.994559,7.536978 -12.670058,15.639291 0.0041,-23.570017 -3.011919,-38.71559 12.232013,-38.959568 -0.56727,-13.783351 -0.962509,-27.489355 -0.935647,-30.931204 0.0643,-8.238727 0.05124,-48.532798 11.7777912,-48.571755 12.0281078,-0.03996 11.7663338,40.45825 11.6098438,48.672504 -0.06719,3.526725 -0.974299,16.6811395 -1.264734,30.043829 16.870602,0.202207 12.681161,20.456054 12.814628,39.545692 -2.696152,-8.437929 -4.058624,-15.858904 -12.702567,-15.657876 -0.165865,6.569184 -0.5944063,8.953906 -0.5944063,8.953906 0,0 -12.5037824,-0.0038 -19.5869753,0.02121 -0.5214444,-4.156086 -0.3224194,-2.844087 -0.6798884,-8.756025 z"
+    }
+  }, 
+  "shapes": {
+    "TXT1": {
+      "footprint": "text", 
+      "layer": "top", 
+      "location": [
+        0, 
+        2.8
+      ], 
+      "show": true
+    }
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
   }
 }
